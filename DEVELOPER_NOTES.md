@@ -67,7 +67,7 @@ Mock APIs simulate realistic delays and data structures:
 
 ### Environment Variables
 Required for production:
-- `NEXT_PUBLIC_MAPBOX_TOKEN` - For map functionality
+- `NEXT_PUBLIC_MAPBOX_TOKEN` - For map functionality (obtain from Mapbox dashboard)
 - `DATABASE_URL` - If using external database
 - `NEXT_PUBLIC_VERCEL_ANALYTICS_ID` - For analytics
 
@@ -117,7 +117,7 @@ Required for production:
 - Verify responsive container dimensions
 
 **Map Integration**
-- Verify Mapbox token is valid
+- Verify Mapbox token is valid and properly configured
 - Check network connectivity for tile loading
 - Ensure proper cleanup of map instances
 
