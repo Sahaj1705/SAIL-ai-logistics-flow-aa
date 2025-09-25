@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Ship, BarChart3, Calendar, MapPin, Settings, Zap, Menu, Bell, User, LogOut } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { ThemeToggle } from "@/components/ui/theme-toggle"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -98,6 +99,8 @@ export function MainNav() {
             </Link>
           </div>
           <nav className="flex items-center space-x-2">
+            <ThemeToggle />
+
             <Button variant="ghost" size="sm">
               <Bell className="h-4 w-4" />
               <span className="sr-only">Notifications</span>

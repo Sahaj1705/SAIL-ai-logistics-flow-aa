@@ -59,7 +59,7 @@ Create a `.env.local` file in the root directory:
 \`\`\`env
 # API Configuration
 NEXT_PUBLIC_API_URL=http://localhost:3000/api
-NEXT_PUBLIC_MAPBOX_TOKEN=pk.your_actual_mapbox_token_here
+NEXT_PUBLIC_MAPBOX_TOKEN=your_mapbox_token_here
 
 # Database (if using external DB)
 DATABASE_URL=your_database_url_here
@@ -68,7 +68,7 @@ DATABASE_URL=your_database_url_here
 NEXT_PUBLIC_VERCEL_ANALYTICS_ID=your_analytics_id_here
 \`\`\`
 
-**Note**: Replace `pk.your_actual_mapbox_token_here` with your actual Mapbox token from [Mapbox Dashboard](https://account.mapbox.com/access-tokens/).
+**Note**: Replace `your_mapbox_token_here` with your actual Mapbox token from [Mapbox Dashboard](https://account.mapbox.com/access-tokens/).
 
 ## Development
 
